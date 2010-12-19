@@ -1,6 +1,6 @@
 /*
    Main.cpp
-   My Unnamed Game Engine
+   LD19 Entry
  
    Created by Chad Godsey on 12/17/10.
   
@@ -32,6 +32,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 #include <MUGE.h>
 #include <json/json.h>
 
+#include "PlayState.h"
 
 int main(int argc, char* argv[])
 {
@@ -43,8 +44,8 @@ int main(int argc, char* argv[])
 	reader.parseFile( Gosu::narrow(Gosu::resourcePrefix() + L"Data/main.json"), json);
 	
 	// Retrieve window size parameters
-	int width = json["WindowSize"].get(0u, 640).asInt();
-	int height =json["WindowSize"].get(1u, 480).asInt();
+	int width = json["WindowSize"].get(0u, 900).asInt();
+	int height =json["WindowSize"].get(1u, 450).asInt();
 	// Framerate and fullscreen stuff
 	double updateInterval = json.get("UpdateInterval", 20.0).asDouble();
 	bool fullscreen = json.get("FullScreen", false).asBool();
@@ -64,16 +65,16 @@ int main(int argc, char* argv[])
 		std::string str(argv[i]);
 		if (strcmp(argv[i], "-map ") == 0 && i != argc) {
 			//LevelSelectState *state = new LevelSelectState( L"world1" );
-			//AdventureState *state = new AdventureState( Gosu::widen(std::string(argv[i+1])) );
-			//win.pushState( state );
+			PlayState *state = new PlayState( Gosu::widen(std::string(argv[i+1])) );
+			win.pushState( state );
 			mapload = true;
 		}
 	}
 
 	// Create and add a title state to our game object
 	if (!mapload) {
-		//TitleState *state = new TitleState( Gosu::widen(json.get("StartState", "TitleState").asString()) );
-		//win.pushState( state );
+		PlayState *state = new PlayState( L"level1" );
+		win.pushState( state );
 	}
 
 	// Start the game!

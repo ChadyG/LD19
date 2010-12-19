@@ -1,12 +1,7 @@
 {
-	"WindowSize" : [768, 480],
+	"WindowSize" : [900, 450],
 	"FullScreen" : false,
 	"UpdateInterval" : 20.0,
-	"StartState" : "TitleState",
-	"Cursor" : {
-		"Image" : "cursor.png",
-		"Center" : [ 0, 0]
-	},
 	"ButtonMaps" : [
 		{
 			"Action" : "Game.Quit",
@@ -34,53 +29,18 @@
 			"Type" : "action"
 		},
 		{
-			"Action" : "Play.MoveRight",
-			"Key" : "kbD",
-			"Type" : "action"
-		},
-		{
-			"Action" : "Play.MoveLeft",
+			"Action" : "Play.PunchLeft",
 			"Key" : "kbA",
 			"Type" : "action"
 		},
 		{
-			"Action" : "Play.Run",
-			"Key" : "kbLeftShift",
+			"Action" : "Play.PunchRight",
+			"Key" : "kbS",
 			"Type" : "action"
 		},
 		{
-			"Action" : "Play.Jump",
-			"Key" : "kbSpace",
-			"Type" : "action"
-		},
-		{
-			"Action" : "Play.Fire",
-			"Key" : "msLeft",
-			"Type" : "action"
-		},
-		{
-			"Action" : "Play.Swap",
-			"Key" : "kbQ",
-			"Type" : "action"
-		},
-		{
-			"Action" : "Play.UseMario",
-			"Key" : "kbM",
-			"Type" : "action"
-		},
-		{
-			"Action" : "Play.UseLuigi",
-			"Key" : "kbL",
-			"Type" : "action"
-		},
-		{
-			"Action" : "Cheat.Reload",
-			"Key" : "kbR",
-			"Type" : "action"
-		},
-		{
-			"Action" : "Cheat.Next",
-			"Key" : "kbN",
+			"Action" : "Play.HeadButt",
+			"Key" : "kbD",
 			"Type" : "action"
 		}
 	]

@@ -1,0 +1,7626 @@
+{
+	"CanvasColor" : [255, 98, 135, 185],
+	"Scale" : 10,
+	"PlayerSpawn" : [ 0.0, -6.0],
+	"Music" : "LD19.ogg",
+	"Layers" : [
+		{
+			"ID" : "background",
+			"Layer" : -4,
+			"Scale" : 10.0
+		},
+		{
+			"ID" : "midground",
+			"Layer" : -3,
+			"Scale" : 5.0
+		},
+		{
+			"ID" : "nearmidground",
+			"Layer" : -2,
+			"Scale" : 1.5
+		},
+		{
+			"ID" : "behind_player",
+			"Layer" : -1,
+			"Scale" : 1.0
+		},
+		{
+			"ID" : "player",
+			"Layer" : 0,
+			"Scale" : 1.0
+		},
+		{
+			"ID" : "foreground",
+			"Layer" : 1,
+			"Scale" : 0.5
+		}
+	],
+		
+	"Objects" : [
+		{
+			"GroupName" : "Clouds_Background",
+			"Children" : [
+				{
+					"Name" : "cloud1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -4,
+						"Image" : "cloud1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 5.0, -6.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "cloud2",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -4,
+						"Image" : "cloud2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ -16.0, -12.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "cloud3",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -4,
+						"Image" : "cloud3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 24.0, -26.0],
+						"Rotation" : 10.0
+					}
+				},
+				{
+					"Name" : "cloud4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -4,
+						"Image" : "cloud2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 50.0, -8.0],
+						"Rotation" : 45.0
+					}
+				},
+				{
+					"Name" : "cloud5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -4,
+						"Image" : "cloud4.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 68.0, -14.0],
+						"Rotation" : 20.0
+					}
+				},
+				{
+					"Name" : "cloud5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -4,
+						"Image" : "cloud2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 84.0, -20.0],
+						"Rotation" : -20.0
+					}
+				},
+				{
+					"Name" : "cloud5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -4,
+						"Image" : "cloud1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 128.0, -12.0],
+						"Rotation" : 90.0
+					}
+				},
+				{
+					"Name" : "cloud5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -4,
+						"Image" : "cloud3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 168.0, -10.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "cloud5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -4,
+						"Image" : "cloud2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 193.0, -16.0],
+						"Rotation" : -40.0
+					}
+				}
+			]
+		},
+		
+		
+		{
+			"GroupName" : "Hills",
+			"Children" : [
+				{
+					"Name" : "hill1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ -25.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill2",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 50.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill3",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 140.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 185.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 300.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 390.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 440.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 560.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 650.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 770.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 820.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 940.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1030.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1080.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1170.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1290.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1380.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1500.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1550.0, -1.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "hill4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -3,
+						"Image" : "hills3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1580.0, -1.0],
+						"Rotation" : 0.0
+					}
+				}
+			]
+		},
+		
+		
+		{
+			"GroupName" : "Buildings",
+			"Children" : [
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ -25.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building2",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building4.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ -5.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building3",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 24.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building5.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 42.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 70.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building7.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 90.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 125.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building2",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building4.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 155.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building3",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 224.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building5.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 242.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 270.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building7.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 290.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 325.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building2",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building4.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 345.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building3",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 424.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building5.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 442.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 70.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building7.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 490.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 525.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building2",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building4.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 555.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building3",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 624.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building5.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 642.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 670.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building7.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 690.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 725.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building2",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building4.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 745.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building3",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 824.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building5.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 842.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 870.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building7.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 890.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building1.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 925.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building2",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building4.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 965.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building3",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building3.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1024.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building5.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1042.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building2.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1070.0, -3.5],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "building1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -2,
+						"Image" : "building7.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0,
+						"CenterX" : 0.5,
+						"CenterY" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1090.0, -3.5],
+						"Rotation" : 0.0
+					}
+				}
+			]
+		},
+		
+				
+		{
+			"GroupName" : "Road",
+			"Children" : [
+				{
+					"Name" : "sidewalk_1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ -65.6, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ -49.2, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk2",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ -32.8, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk3",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ -16.4, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk4",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 0.0, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 16.4, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk6",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 32.8, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk7",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 49.2, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk8",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 65.6, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk9",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 82.0, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk10",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 98.4, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk11",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 114.8, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 131.2, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 147.6, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 164.0, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 180.4, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 196.8, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 213.2, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 229.6, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 246.0, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 262.4, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 278.8, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 295.2, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 311.6, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 328.0, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 344.4, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "sidewalk12",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "sidewalk.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 360.8, -8.9],
+						"Rotation" : 0.0
+					}
+				},
+				{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				360.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				377.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				393.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				410.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				426.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				442.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				459.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				475.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				492.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				508.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				524.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				541.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				557.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				574.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				590.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				606.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				623.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				639.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				656.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				672.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				688.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				705.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				721.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				738.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				754.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				770.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				787.199999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				803.599999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				819.999999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				836.399999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				852.799999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				869.199999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				885.599999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				901.999999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				918.399999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				934.799999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				951.199999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				967.599999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				983.999999999999,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1000.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1016.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1033.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1049.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1066.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1082.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1098.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1115.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1131.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1148.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1164.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1180.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1197.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1213.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1230.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1246.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1262.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1279.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1295.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1312.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1328.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1344.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1361.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1377.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1394.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1410.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1426.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1443.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1459.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1476.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1492.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1508.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1525.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1541.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1558.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1574.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1590.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1607.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1623.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1640.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1656.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1672.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1689.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1705.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1722.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1738.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1754.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1771.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1787.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1804.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1820.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1836.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1853.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1869.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1886.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1902.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1918.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1935.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1951.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1968.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				1984.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2000.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2017.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2033.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2050.0,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2066.4,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2082.8,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2099.2,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2115.6,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2132.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2148.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2164.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2181.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2197.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2214.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2230.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2246.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2263.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2279.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2296.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2312.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2328.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2345.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2361.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2378.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2394.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2410.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2427.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2443.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2460.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2476.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2492.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2509.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2525.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2542.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2558.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2574.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2591.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2607.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2624.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2640.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2656.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2673.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2689.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2706.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2722.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2738.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2755.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2771.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2788.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2804.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2820.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2837.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2853.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2870.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2886.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2902.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2919.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2935.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2952.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2968.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				2984.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3001.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3017.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3034.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3050.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3066.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3083.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3099.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3116.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3132.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3148.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3165.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3181.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3198.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3214.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3230.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3247.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3263.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3280.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3296.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3312.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3329.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3345.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3362.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3378.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3394.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3411.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3427.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3444.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3460.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3476.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3493.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3509.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3526.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3542.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3558.80000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3575.20000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3591.60000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3608.00000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "sidewalk13",
+		"Transform": {
+			"Position": [
+				3624.40000000001,
+				-8.9
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "sidewalk.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+				
+				
+				{
+					"Name" : "road1",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ -65.6, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road2",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 0.0, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road3",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 65.6, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 131.2, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 196.8, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 262.4, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 328.0, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 393.6, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 459.2, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 524.8, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 590.4, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 656.0, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 721.6, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 787.2, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 852.8, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 918.4, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 984.0, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1049.6, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1115.2, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1180.8, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1246.4, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1312.0, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+					"Name" : "road5",
+					"Renderable" : {
+						"Type" : "Sprite",
+						"Layer" : -1,
+						"Image" : "road.png",
+						"ColorMod" : [255, 255, 255, 255],
+						"xScale" : 1.0,
+						"yScale" : 1.0
+					},
+					"Transform" : {
+						"Position" : [ 1377.6, 0.0],
+						"Rotation" : 0.0
+					}
+				},
+				{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				1377.6,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				1443.2,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				1508.8,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				1574.4,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				1640.0,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				1705.6,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				1771.2,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				1836.8,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				1902.4,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				1968.0,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2033.6,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2099.2,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2164.8,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2230.4,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2296.0,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2361.6,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2427.2,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2492.8,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2558.4,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2624.0,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2689.6,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2755.2,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2820.8,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2886.4,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				2952.0,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3017.6,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3083.2,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3148.8,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3214.4,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3280.0,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3345.6,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3411.2,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3476.8,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3542.4,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3608.0,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3673.6,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3739.2,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3804.8,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3870.4,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				3936.0,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				4001.6,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				4067.2,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				4132.8,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				4198.4,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				4264.0,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				4329.6,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				4395.2,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				4460.8,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				4526.4,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	},
+	{
+		"Name": "road5",
+		"Transform": {
+			"Position": [
+				4592.0,
+				0.0
+			],
+			"Rotation": 0.0
+		},
+		"Renderable": {
+			"Layer": -1,
+			"Image": "road.png",
+			"yScale": 1.0,
+			"xScale": 1.0,
+			"ColorMod": [
+				255,
+				255,
+				255,
+				255
+			],
+			"Type": "Sprite"
+		}
+	}
+				
+				
+			]
+		}
+		
+
+		
+	]
+}
