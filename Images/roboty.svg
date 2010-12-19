@@ -20,19 +20,56 @@
      id="defs4">
     <pattern
        inkscape:collect="always"
+       xlink:href="#pattern4659-1"
+       id="pattern3387"
+       patternTransform="matrix(0.97058823,0,0,1.8020833,6159.7045,-824.9356)" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3378"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3365"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3348"
+       is_visible="true" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern4937"
+       id="pattern3799"
+       patternTransform="matrix(0.97058821,0,0,1.8020833,-1926.3009,3690.8447)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern4937"
+       id="pattern3797"
+       patternTransform="matrix(0.97058822,0,0,1.8020833,-1499.2282,4048.9669)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern4963"
+       id="pattern3773"
+       patternTransform="matrix(0.97058825,0,0,1.8020833,1124.0849,4514.0882)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern4991"
+       id="pattern3771"
+       patternTransform="matrix(0.9705879,0,0,1.8020833,4814.0522,2185.3166)" />
+    <pattern
+       inkscape:collect="always"
        xlink:href="#pattern4835"
        id="pattern5104"
-       patternTransform="matrix(0.97058824,0,1.8507189e-8,1.8020833,4944.9825,3322.7889)" />
+       patternTransform="matrix(0.97058824,0,1.8507189e-8,1.8020833,5511.0393,3196.375)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern4991"
        id="pattern5039"
-       patternTransform="matrix(0.97058755,0,0,1.8020833,5398.5942,1800.2053)" />
+       patternTransform="matrix(0.97058726,0,0,1.8020833,5882.929,1481.1154)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern4991"
        id="pattern5015"
-       patternTransform="matrix(0.97058779,0,0,1.8020833,5327.8025,897.26397)" />
+       patternTransform="matrix(0.97058779,0,0,1.8020833,5713.0472,463.69048)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern4963"
@@ -312,6 +349,66 @@
          d="M 195.60607,3.0303053 194.84849,68.181815"
          style="fill:#666666;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </pattern>
+    <inkscape:perspective
+       id="perspective3267"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern2983-7"
+       id="pattern4659-1"
+       patternTransform="matrix(0.97058824,0,0,1.8020833,5945.0736,-33.512771)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern4361-4"
+       id="pattern2983-7"
+       patternTransform="matrix(0.97058824,0,0,1.8020833,-414.66667,2135.2713)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern3632-0"
+       id="pattern4361-4"
+       patternTransform="matrix(0.97058824,0,0,1.8020833,-414.66667,195.27127)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="206.06061"
+       height="72.727272"
+       patternTransform="translate(-415.15152,196.30157)"
+       id="pattern3632-0">
+      <rect
+         y="0"
+         x="0"
+         height="72.727272"
+         width="206.06061"
+         id="rect3618-9"
+         style="fill:#ececec;fill-opacity:1;stroke:none" />
+      <path
+         id="path3620-4"
+         d="M 35.60607,3.0303053 34.84849,68.181815"
+         style="fill:#666666;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         id="path3622-8"
+         d="m 3.0303098,37.121215 200.7575702,0"
+         style="fill:#666666;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         style="fill:#666666;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="M 75.60607,3.0303053 74.84849,68.181815"
+         id="path3624-8" />
+      <path
+         id="path3626-2"
+         d="M 115.60607,3.0303053 114.84849,68.181815"
+         style="fill:#666666;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         style="fill:#666666;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="M 155.60607,3.0303053 154.84849,68.181815"
+         id="path3628-4" />
+      <path
+         id="path3630-5"
+         d="M 195.60607,3.0303053 194.84849,68.181815"
+         style="fill:#666666;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </pattern>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -320,16 +417,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.165"
-     inkscape:cx="1773.377"
-     inkscape:cy="-1740.2676"
+     inkscape:zoom="0.46669048"
+     inkscape:cx="223.72152"
+     inkscape:cy="-4662.3152"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1600"
      inkscape:window-height="838"
-     inkscape:window-x="-32000"
-     inkscape:window-y="-32000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -339,7 +436,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3748,8 +3845,8 @@
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        rx="14.285714"
        ry="11.428572"
-       y="3597.3606"
-       x="-2351.6431"
+       y="3608.0942"
+       x="-2337.1938"
        height="205.40282"
        width="193.97423"
        id="rect4915"
@@ -3761,7 +3858,7 @@
        ry="22.857143"
        rx="45.714287"
        y="4705.418"
-       x="528.25958"
+       x="546.25958"
        height="157.2124"
        width="153.83578"
        id="rect4917"
@@ -3773,8 +3870,8 @@
        transform="matrix(-0.02100934,-0.99977928,0.99977928,-0.02100934,0,0)"
        ry="22.857143"
        rx="45.714287"
-       y="487.00821"
-       x="-4586.7529"
+       y="505.00436"
+       x="-4587.1309"
        height="145.02934"
        width="73.833122"
        id="rect4919"
@@ -3787,8 +3884,8 @@
        id="rect4921"
        width="84.848488"
        height="166.66667"
-       x="-736.41315"
-       y="4404.9893"
+       x="-719.12836"
+       y="4410.0122"
        rx="45.714287"
        ry="22.857143"
        transform="matrix(0.96027501,-0.27905539,0.27905539,0.96027501,0,0)" />
@@ -3798,13 +3895,13 @@
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        sodipodi:nodetypes="ccccccccc"
        id="path4923"
-       d="m 391.34414,4450.246 162.74683,-70.3834 c 24.87192,-10.7571 49.22521,-9.406 54.60384,3.0299 l 104.70935,297.5213 c 4.51849,10.4474 -8.66514,26.133 -29.55966,35.1699 l -136.72088,59.1283 c -20.8945,9.0366 -41.35325,7.9015 -45.8717,-2.5457 l -145.09411,-280.055 c -5.37855,-12.4358 10.31464,-31.1077 35.18659,-41.8647 z"
+       d="m 409.34414,4450.246 162.74683,-70.3834 c 24.87192,-10.7571 49.22521,-9.406 54.60384,3.0299 l 104.70935,297.5213 c 4.51849,10.4474 -8.66514,26.133 -29.55966,35.1699 l -136.72088,59.1283 c -20.8945,9.0366 -41.35325,7.9015 -45.8717,-2.5457 l -145.09411,-280.055 c -5.37855,-12.4358 10.31464,-31.1077 35.18659,-41.8647 z"
        style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="14.470004"
        inkscape:export-xdpi="14.470004"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
-       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,1428.437,4417.9892)"
+       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,1446.437,4417.9892)"
        d="m -1200,672.05914 a 130.30302,122.72727 0 1 1 -260.606,0 130.30302,122.72727 0 1 1 260.606,0 z"
        sodipodi:ry="122.72727"
        sodipodi:rx="130.30302"
@@ -3815,7 +3912,7 @@
        sodipodi:type="arc" />
     <path
        style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 344.52252,4301.1221 31.03661,-33.5091 22.40863,28.0915 -37.03662,27.5092 -16.40862,-22.0916 z"
+       d="m 362.52252,4301.1221 31.03661,-33.5091 22.40863,28.0915 -37.03662,27.5092 -16.40862,-22.0916 z"
        id="rect4927"
        sodipodi:nodetypes="ccccc"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -3823,7 +3920,7 @@
        inkscape:export-ydpi="14.470004" />
     <path
        style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 409.78892,4245.6383 34.39322,-18.5748 16.44321,22.1381 -30.39328,22.5748 -20.44315,-26.1381 z"
+       d="m 427.78892,4245.6383 34.39322,-18.5748 16.44321,22.1381 -30.39328,22.5748 -20.44315,-26.1381 z"
        id="rect4929"
        sodipodi:nodetypes="ccccc"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -3834,12 +3931,12 @@
        inkscape:export-ydpi="14.470004"
        inkscape:export-xdpi="14.470004"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
-       y="3728.6008"
-       x="-2304.3875"
+       y="3739.3345"
+       x="-2289.9382"
        height="31.818182"
        width="131.06061"
        id="rect4931"
-       style="fill:url(#pattern4937);fill-opacity:1;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:url(#pattern3799);fill-opacity:1;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <rect
        inkscape:export-ydpi="14.470004"
        inkscape:export-xdpi="14.470004"
@@ -3848,8 +3945,8 @@
        id="rect4933"
        width="84.848488"
        height="166.66667"
-       x="-858.43512"
-       y="4428.438"
+       x="-841.15033"
+       y="4433.4609"
        rx="45.714287"
        ry="22.857143"
        transform="matrix(0.96027501,-0.27905539,0.27905539,0.96027501,0,0)" />
@@ -3860,8 +3957,8 @@
        transform="matrix(0.23846847,-0.97115024,0.97115024,0.23846847,0,0)"
        ry="22.857141"
        rx="45.714283"
-       y="1536.6417"
-       x="-4395.0078"
+       y="1554.1221"
+       x="-4390.7144"
        height="145.28734"
        width="73.96447"
        id="rect4935"
@@ -3873,8 +3970,8 @@
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        rx="14.285714"
        ry="11.428572"
-       y="4302.002"
-       x="84.356567"
+       y="4431.3394"
+       x="713.19354"
        height="205.40282"
        width="193.97423"
        id="rect4941"
@@ -3886,7 +3983,7 @@
        ry="22.857143"
        rx="45.714287"
        y="4705.418"
-       x="1060.2595"
+       x="1702.2595"
        height="157.2124"
        width="153.83578"
        id="rect4943"
@@ -3898,8 +3995,8 @@
        transform="matrix(0.18330884,-0.98305537,0.98305537,0.18330884,0,0)"
        ry="22.857143"
        rx="45.714287"
-       y="1979.5364"
-       x="-4333.2798"
+       y="2610.6572"
+       x="-4215.5977"
        height="145.02934"
        width="73.833122"
        id="rect4945"
@@ -3912,8 +4009,8 @@
        id="rect4947"
        width="84.848488"
        height="166.66667"
-       x="773.9549"
-       y="4506.5596"
+       x="1414.0314"
+       y="4556.2314"
        rx="45.714287"
        ry="22.857143"
        transform="matrix(0.99700239,-0.07737073,0.07737073,0.99700239,0,0)" />
@@ -3923,13 +4020,13 @@
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        sodipodi:nodetypes="ccccccccc"
        id="path4949"
-       d="m 989.3183,4420.9471 173.6798,-35.7169 c 26.5429,-5.4592 50.1089,0.8299 52.8385,14.1016 l 41.8379,312.6223 c 2.2932,11.1492 -13.8121,23.8169 -36.1104,28.403 l -145.9054,30.0052 c -22.2983,4.5861 -42.0957,-0.6972 -44.3888,-11.8463 l -84.93583,-303.7585 c -2.72961,-13.2713 16.44143,-28.3506 42.98433,-33.8097 z"
+       d="m 1631.3183,4420.9471 173.6798,-35.7169 c 26.5429,-5.4592 50.1089,0.8299 52.8385,14.1016 l 41.8379,312.6223 c 2.2932,11.1492 -13.8121,23.8169 -36.1104,28.403 l -145.9054,30.0052 c -22.2983,4.5861 -42.0957,-0.6972 -44.3888,-11.8463 l -84.9358,-303.7585 c -2.7296,-13.2713 16.4414,-28.3506 42.9843,-33.8097 z"
        style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="14.470004"
        inkscape:export-xdpi="14.470004"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
-       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,1960.437,4417.9892)"
+       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,2602.437,4417.9892)"
        d="m -1200,672.05914 a 130.30302,122.72727 0 1 1 -260.606,0 130.30302,122.72727 0 1 1 260.606,0 z"
        sodipodi:ry="122.72727"
        sodipodi:rx="130.30302"
@@ -3939,18 +4036,16 @@
        style="fill:#cccccc;fill-opacity:1;stroke:#1a1a1a;stroke-width:80;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="arc" />
     <path
-       transform="matrix(0.9794972,-0.20145777,0.20145777,0.9794972,0,0)"
        style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 150.59244,4379.8182 45.32941,3.918 -1.84783,6.72 -46.13525,0 2.65367,-10.638 z"
+       d="m 1671.8533,4259.6816 45.1893,-5.2942 -0.4561,6.9544 -45.1894,9.2943 0.4562,-10.9545 z"
        id="rect4953"
        sodipodi:nodetypes="ccccc"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        inkscape:export-xdpi="14.470004"
        inkscape:export-ydpi="14.470004" />
     <path
-       transform="matrix(0.9794972,-0.20145777,0.20145777,0.9794972,0,0)"
        style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 232.17284,4382.9016 40.22182,-1.5561 -0.29175,9.1399 -37.8599,0 -2.07017,-7.5838 z"
+       d="m 1752.3822,4246.2668 39.0837,-9.6272 1.5555,9.0113 -37.0836,7.6272 -3.5556,-7.0113 z"
        id="rect4955"
        sodipodi:nodetypes="ccccc"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -3961,12 +4056,12 @@
        inkscape:export-ydpi="14.470004"
        inkscape:export-xdpi="14.470004"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
-       y="4433.2417"
-       x="131.612"
+       y="4562.5791"
+       x="760.44904"
        height="31.818182"
        width="131.06061"
        id="rect4957"
-       style="fill:url(#pattern4963);fill-opacity:1;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:url(#pattern3773);fill-opacity:1;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <rect
        inkscape:export-ydpi="14.470004"
        inkscape:export-xdpi="14.470004"
@@ -3975,8 +4070,8 @@
        id="rect4959"
        width="84.848488"
        height="166.66667"
-       x="651.9328"
-       y="4530.0083"
+       x="1292.0092"
+       y="4579.6802"
        rx="45.714287"
        ry="22.857143"
        transform="matrix(0.99700239,-0.07737073,0.07737073,0.99700239,0,0)" />
@@ -3987,8 +4082,8 @@
        transform="matrix(0.82474404,-0.5655062,0.5655062,0.82474404,0,0)"
        ry="22.857141"
        rx="45.714283"
-       y="4359.376"
-       x="-1772.3923"
+       y="4722.4243"
+       x="-1242.9054"
        height="145.28734"
        width="73.96447"
        id="rect4961"
@@ -3998,8 +4093,8 @@
        id="rect4969"
        width="193.97423"
        height="205.40282"
-       x="3918.8267"
-       y="2421.6624"
+       x="4403.1606"
+       y="2102.5703"
        ry="11.428572"
        rx="14.285714"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -4011,7 +4106,7 @@
        id="rect4971"
        width="153.83578"
        height="157.2124"
-       x="1680.2595"
+       x="2260.2595"
        y="4705.418"
        rx="45.714287"
        ry="22.857143"
@@ -4023,8 +4118,8 @@
        id="rect4973"
        width="73.833122"
        height="145.02934"
-       x="1443.5062"
-       y="4714.8086"
+       x="2021.7681"
+       y="4759.6821"
        rx="45.714287"
        ry="22.857143"
        transform="matrix(0.99700239,-0.07737071,0.07737071,0.99700239,0,0)"
@@ -4035,8 +4130,8 @@
        transform="matrix(0.90211476,0.43149618,-0.43149618,0.90211476,0,0)"
        ry="22.857143"
        rx="45.714287"
-       y="3205.3179"
-       x="3633.6797"
+       y="2955.0513"
+       x="4156.9053"
        height="166.66667"
        width="84.848488"
        id="rect4975"
@@ -4046,7 +4141,7 @@
        inkscape:export-ydpi="14.470004" />
     <path
        style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 1787.5813,4383.4038 168.2695,55.9082 c 25.7165,8.5436 42.9807,25.7732 38.7088,38.6316 l -120.0785,291.6578 c -3.5886,10.8021 -23.8701,13.7199 -45.474,6.5425 l -141.3605,-46.9675 c -21.6038,-7.1774 -36.1072,-21.6516 -32.5186,-32.4535 l 78.3227,-305.5305 c 4.2718,-12.8581 28.414,-16.3316 54.1303,-7.788 z"
+       d="m 2367.5813,4383.4038 168.2695,55.9082 c 25.7165,8.5436 42.9807,25.7732 38.7088,38.6316 l -120.0785,291.6578 c -3.5886,10.8021 -23.8701,13.7199 -45.474,6.5425 l -141.3605,-46.9675 c -21.6038,-7.1774 -36.1072,-21.6516 -32.5186,-32.4535 l 78.3227,-305.5305 c 4.2718,-12.8581 28.414,-16.3316 54.1303,-7.788 z"
        id="path4977"
        sodipodi:nodetypes="ccccccccc"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -4061,14 +4156,14 @@
        sodipodi:rx="130.30302"
        sodipodi:ry="122.72727"
        d="m -1200,672.05914 a 130.30302,122.72727 0 1 1 -260.606,0 130.30302,122.72727 0 1 1 260.606,0 z"
-       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,2580.437,4417.9892)"
+       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,3160.437,4417.9892)"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        inkscape:export-xdpi="14.470004"
        inkscape:export-ydpi="14.470004" />
     <path
        sodipodi:nodetypes="ccccc"
        id="path4981"
-       d="m 1952.668,4279.6244 35.6972,28.2101 -5.24,4.595 -38.5259,-25.3817 8.0687,-7.4234 z"
+       d="m 2532.668,4279.6244 35.6972,28.2101 -5.24,4.595 -38.5259,-25.3817 8.0687,-7.4234 z"
        style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        inkscape:export-xdpi="14.470004"
@@ -4076,18 +4171,18 @@
     <path
        sodipodi:nodetypes="ccccc"
        id="path4983"
-       d="m 2019.0962,4327.0813 34.4438,20.8287 -5.272,7.472 -31.6153,-20.8288 2.4435,-7.4719 z"
+       d="m 2599.0962,4327.0813 34.4438,20.8287 -5.272,7.472 -31.6153,-20.8288 2.4435,-7.4719 z"
        style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        inkscape:export-xdpi="14.470004"
        inkscape:export-ydpi="14.470004" />
     <rect
-       style="fill:url(#pattern4991);fill-opacity:1;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:url(#pattern3771);fill-opacity:1;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4985"
        width="131.06061"
        height="31.818182"
-       x="3966.0823"
-       y="2552.9021"
+       x="4450.4165"
+       y="2233.8101"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        inkscape:export-xdpi="14.470004"
        inkscape:export-ydpi="14.470004"
@@ -4096,8 +4191,8 @@
        transform="matrix(0.56550621,0.82474404,-0.82474404,0.56550621,0,0)"
        ry="22.857143"
        rx="45.714287"
-       y="1007.9882"
-       x="4691.5508"
+       y="529.6369"
+       x="5019.5425"
        height="166.66667"
        width="84.848488"
        id="rect4987"
@@ -4110,8 +4205,8 @@
        id="rect4989"
        width="73.96447"
        height="145.28734"
-       x="3473.0847"
-       y="3339.9075"
+       x="3996.3096"
+       y="3089.6409"
        rx="45.714283"
        ry="22.857141"
        transform="matrix(0.90211476,0.4314962,-0.4314962,0.90211476,0,0)"
@@ -4125,8 +4220,8 @@
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        rx="14.285714"
        ry="11.428572"
-       y="814.51801"
-       x="4916.9106"
+       y="380.94464"
+       x="5302.1519"
        height="205.40282"
        width="193.97423"
        id="rect4993"
@@ -4138,7 +4233,7 @@
        ry="22.857143"
        rx="45.714287"
        y="4705.418"
-       x="2320.2595"
+       x="2900.2595"
        height="157.2124"
        width="153.83578"
        id="rect4995"
@@ -4150,8 +4245,8 @@
        transform="matrix(0.99700239,-0.07737071,0.07737071,0.99700239,0,0)"
        ry="22.857143"
        rx="45.714287"
-       y="4764.3242"
-       x="2081.5881"
+       y="4809.1978"
+       x="2659.8464"
        height="145.02934"
        width="73.833122"
        id="rect4997"
@@ -4164,8 +4259,8 @@
        id="rect4999"
        width="84.848488"
        height="166.66667"
-       x="4211.0327"
-       y="2929.1616"
+       x="4734.2646"
+       y="2678.895"
        rx="45.714287"
        ry="22.857143"
        transform="matrix(0.90211476,0.43149618,-0.43149618,0.90211476,0,0)" />
@@ -4175,13 +4270,13 @@
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        sodipodi:nodetypes="ccccccccc"
        id="path5001"
-       d="m 2427.5813,4383.4038 168.2695,55.9082 c 25.7165,8.5436 42.9807,25.7732 38.7088,38.6316 l -120.0785,291.6578 c -3.5886,10.8021 -23.8701,13.7199 -45.474,6.5425 l -141.3605,-46.9675 c -21.6038,-7.1774 -36.1072,-21.6516 -32.5186,-32.4535 l 78.3227,-305.5305 c 4.2718,-12.8581 28.414,-16.3316 54.1303,-7.788 z"
+       d="m 3007.5813,4383.4038 168.2695,55.9082 c 25.7165,8.5436 42.9807,25.7732 38.7088,38.6316 l -120.0785,291.6578 c -3.5886,10.8021 -23.8701,13.7199 -45.474,6.5425 l -141.3605,-46.9675 c -21.6038,-7.1774 -36.1072,-21.6516 -32.5186,-32.4535 l 78.3227,-305.5305 c 4.2718,-12.8581 28.414,-16.3316 54.1303,-7.788 z"
        style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="14.470004"
        inkscape:export-xdpi="14.470004"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
-       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,3220.437,4417.9892)"
+       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,3800.437,4417.9892)"
        d="m -1200,672.05914 a 130.30302,122.72727 0 1 1 -260.606,0 130.30302,122.72727 0 1 1 260.606,0 z"
        sodipodi:ry="122.72727"
        sodipodi:rx="130.30302"
@@ -4192,7 +4287,7 @@
        sodipodi:type="arc" />
     <path
        style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 2642.8338,4317.807 25.1795,38.488 -4.2507,1.0822 -30.6439,-34.4881 9.7151,-5.0821 z"
+       d="m 3222.8338,4317.807 25.1795,38.488 -4.2507,1.0822 -30.6439,-34.4881 9.7151,-5.0821 z"
        id="path5005"
        sodipodi:nodetypes="ccccc"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -4200,7 +4295,7 @@
        inkscape:export-ydpi="14.470004" />
     <path
        style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 2696.7158,4384.8397 25.8793,25.0337 -7.0263,5.8529 -25.1471,-28.3017 6.2941,-2.5849 z"
+       d="m 3276.7158,4384.8397 25.8793,25.0337 -7.0263,5.8529 -25.1471,-28.3017 6.2941,-2.5849 z"
        id="path5007"
        sodipodi:nodetypes="ccccc"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -4211,8 +4306,8 @@
        inkscape:export-ydpi="14.470004"
        inkscape:export-xdpi="14.470004"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
-       y="945.75775"
-       x="4964.1665"
+       y="512.18439"
+       x="5349.4077"
        height="31.818182"
        width="131.06061"
        id="rect5009"
@@ -4225,8 +4320,8 @@
        id="rect5011"
        width="84.848488"
        height="166.66667"
-       x="4611.0674"
-       y="-2126.4436"
+       x="4655.9409"
+       y="-2704.7019"
        rx="45.714287"
        ry="22.857143"
        transform="matrix(0.07737073,0.99700239,-0.99700239,0.07737073,0,0)" />
@@ -4237,8 +4332,8 @@
        transform="matrix(0.75969651,0.6502778,-0.6502778,0.75969651,0,0)"
        ry="22.857141"
        rx="45.714283"
-       y="1851.2094"
-       x="4655.7036"
+       y="1474.05"
+       x="5096.3252"
        height="145.28734"
        width="73.96447"
        id="rect5013"
@@ -4250,8 +4345,8 @@
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        rx="14.285714"
        ry="11.428572"
-       y="1717.4592"
-       x="4987.7017"
+       y="1398.3672"
+       x="5472.0356"
        height="205.40282"
        width="193.97423"
        id="rect5017"
@@ -4263,7 +4358,7 @@
        ry="22.857143"
        rx="45.714287"
        y="4705.418"
-       x="2960.2595"
+       x="3540.2595"
        height="157.2124"
        width="153.83578"
        id="rect5019"
@@ -4275,8 +4370,8 @@
        transform="matrix(0.99700239,-0.07737071,0.07737071,0.99700239,0,0)"
        ry="22.857143"
        rx="45.714287"
-       y="4813.8398"
-       x="2719.6663"
+       y="4858.7134"
+       x="3297.9246"
        height="145.02934"
        width="73.833122"
        id="rect5021"
@@ -4289,8 +4384,8 @@
        id="rect5023"
        width="84.848488"
        height="166.66667"
-       x="4788.3921"
-       y="2653.0054"
+       x="5311.624"
+       y="2402.7388"
        rx="45.714287"
        ry="22.857143"
        transform="matrix(0.90211476,0.43149618,-0.43149618,0.90211476,0,0)" />
@@ -4300,13 +4395,13 @@
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        sodipodi:nodetypes="ccccccccc"
        id="path5025"
-       d="m 3067.5813,4383.4038 168.2695,55.9082 c 25.7165,8.5436 42.9807,25.7732 38.7088,38.6316 l -120.0785,291.6578 c -3.5886,10.8021 -23.8701,13.7199 -45.474,6.5425 l -141.3605,-46.9675 c -21.6038,-7.1774 -36.1072,-21.6516 -32.5186,-32.4535 l 78.3227,-305.5305 c 4.2718,-12.8581 28.414,-16.3316 54.1303,-7.788 z"
+       d="m 3647.5813,4383.4038 168.2695,55.9082 c 25.7165,8.5436 42.9807,25.7732 38.7088,38.6316 l -120.0785,291.6578 c -3.5886,10.8021 -23.8701,13.7199 -45.474,6.5425 l -141.3605,-46.9675 c -21.6038,-7.1774 -36.1072,-21.6516 -32.5186,-32.4535 l 78.3227,-305.5305 c 4.2718,-12.8581 28.414,-16.3316 54.1303,-7.788 z"
        style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="14.470004"
        inkscape:export-xdpi="14.470004"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
-       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,3860.437,4417.9892)"
+       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,4440.437,4417.9892)"
        d="m -1200,672.05914 a 130.30302,122.72727 0 1 1 -260.606,0 130.30302,122.72727 0 1 1 260.606,0 z"
        sodipodi:ry="122.72727"
        sodipodi:rx="130.30302"
@@ -4317,7 +4412,7 @@
        sodipodi:type="arc" />
     <path
        style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 3234.668,4267.6244 33.6972,40.2101 -5.24,4.595 -38.5259,-25.3817 10.0687,-19.4234 z"
+       d="m 3814.668,4267.6244 33.6972,40.2101 -5.24,4.595 -38.5259,-25.3817 10.0687,-19.4234 z"
        id="path5029"
        sodipodi:nodetypes="ccccc"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -4325,7 +4420,7 @@
        inkscape:export-ydpi="14.470004" />
     <path
        style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 3299.0962,4327.0813 40.4438,10.8287 -11.272,17.472 -31.6153,-20.8288 2.4435,-7.4719 z"
+       d="m 3879.0962,4327.0813 40.4438,10.8287 -11.272,17.472 -31.6153,-20.8288 2.4435,-7.4719 z"
        id="path5031"
        sodipodi:nodetypes="ccccc"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -4336,8 +4431,8 @@
        inkscape:export-ydpi="14.470004"
        inkscape:export-xdpi="14.470004"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
-       y="1848.699"
-       x="5034.9575"
+       y="1529.6069"
+       x="5519.2915"
        height="31.818182"
        width="131.06061"
        id="rect5033"
@@ -4350,8 +4445,8 @@
        id="rect5035"
        width="84.848488"
        height="166.66667"
-       x="5415.3945"
-       y="-47.683739"
+       x="5743.3862"
+       y="-526.03522"
        rx="45.714287"
        ry="22.857143"
        transform="matrix(0.56550621,0.82474404,-0.82474404,0.56550621,0,0)" />
@@ -4362,8 +4457,8 @@
        transform="matrix(0.90211476,0.4314962,-0.4314962,0.90211476,0,0)"
        ry="22.857141"
        rx="45.714283"
-       y="2787.595"
-       x="4627.7949"
+       y="2537.3284"
+       x="5151.0269"
        height="145.28734"
        width="73.96447"
        id="rect5037"
@@ -4373,8 +4468,8 @@
        id="rect5082"
        width="193.97423"
        height="205.40282"
-       x="4534.0918"
-       y="3240.0359"
+       x="5100.144"
+       y="3113.6211"
        ry="11.428572"
        rx="14.285714"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -4386,7 +4481,7 @@
        id="rect5084"
        width="153.83578"
        height="157.2124"
-       x="3624.2595"
+       x="4204.2598"
        y="4705.418"
        rx="45.714287"
        ry="22.857143"
@@ -4398,8 +4493,8 @@
        id="rect5086"
        width="73.833122"
        height="145.02934"
-       x="-2589.3914"
-       y="5357.8101"
+       x="-2346.7004"
+       y="5884.5962"
        rx="45.714287"
        ry="22.857143"
        transform="matrix(0.41843882,-0.90824499,0.90824499,0.41843882,0,0)"
@@ -4410,8 +4505,8 @@
        transform="matrix(0.98411405,-0.1775374,0.1775374,0.98411405,0,0)"
        ry="22.857143"
        rx="45.714287"
-       y="5051.4023"
-       x="2915.6147"
+       y="5154.375"
+       x="3486.4036"
        height="166.66667"
        width="84.848488"
        id="rect5088"
@@ -4421,7 +4516,7 @@
        inkscape:export-ydpi="14.470004" />
     <path
        style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 3663.4864,4371.2098 173.0517,38.6464 c 26.447,5.9063 45.3608,21.3067 42.4077,34.5303 l -90.0483,302.2819 c -2.4809,11.1088 -22.3645,16.0575 -44.5823,11.096 l -145.3777,-32.4663 c -22.2177,-4.9617 -38.1069,-17.8993 -35.6261,-29.0083 l 47.1062,-311.872 c 2.9532,-13.2235 26.6218,-19.1143 53.0688,-13.208 z"
+       d="m 4243.4864,4371.2098 173.0517,38.6464 c 26.447,5.9063 45.3608,21.3067 42.4077,34.5303 l -90.0483,302.2819 c -2.4809,11.1088 -22.3645,16.0575 -44.5823,11.096 l -145.3777,-32.4663 c -22.2177,-4.9617 -38.1069,-17.8993 -35.6261,-29.0083 l 47.1062,-311.872 c 2.9532,-13.2235 26.6218,-19.1143 53.0688,-13.208 z"
        id="path5090"
        sodipodi:nodetypes="ccccccccc"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -4436,13 +4531,13 @@
        sodipodi:rx="130.30302"
        sodipodi:ry="122.72727"
        d="m -1200,672.05914 a 130.30302,122.72727 0 1 1 -260.606,0 130.30302,122.72727 0 1 1 260.606,0 z"
-       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,4524.437,4417.9892)"
+       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,5104.437,4417.9892)"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        inkscape:export-xdpi="14.470004"
        inkscape:export-ydpi="14.470004" />
     <path
        style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 3767.6817,4223.6905 43.2825,17.8631 -4.2541,19.0496 -45.0262,-10.0554 5.9978,-26.8573 z"
+       d="m 4347.6817,4223.6905 43.2825,17.8631 -4.2541,19.0496 -45.0262,-10.0554 5.9978,-26.8573 z"
        id="path5094"
        sodipodi:nodetypes="ccccc"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -4450,7 +4545,7 @@
        inkscape:export-ydpi="14.470004" />
     <path
        style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 3850.1738,4250.2804 38.6934,0.4442 -6.0105,26.9138 -36.9497,-8.2519 4.2668,-19.1061 z"
+       d="m 4430.1738,4250.2804 38.6934,0.4442 -6.0105,26.9138 -36.9497,-8.2519 4.2668,-19.1061 z"
        id="path5096"
        sodipodi:nodetypes="ccccc"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
@@ -4461,8 +4556,8 @@
        id="rect5098"
        width="131.06061"
        height="31.818182"
-       x="4581.3477"
-       y="3371.2742"
+       x="5147.3999"
+       y="3244.8594"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        inkscape:export-xdpi="14.470004"
        inkscape:export-ydpi="14.470004"
@@ -4471,8 +4566,8 @@
        transform="matrix(0.99653124,0.08321946,-0.08321946,0.99653124,0,0)"
        ry="22.857143"
        rx="45.714287"
-       y="4095.6619"
-       x="3974.2834"
+       y="4047.397"
+       x="4552.2725"
        height="166.66667"
        width="84.848488"
        id="rect5100"
@@ -4485,13 +4580,211 @@
        id="rect5102"
        width="73.96447"
        height="145.28734"
-       x="-279.91766"
-       y="5791.6914"
+       x="156.9456"
+       y="6173.2085"
        rx="45.714283"
        ry="22.857141"
        transform="matrix(0.75321247,-0.6577773,0.6577773,0.75321247,0,0)"
        inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
        inkscape:export-xdpi="14.470004"
        inkscape:export-ydpi="14.470004" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3775"
+       width="193.97423"
+       height="205.40282"
+       x="-1910.1221"
+       y="3966.2192"
+       ry="11.428572"
+       rx="14.285714"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004"
+       transform="matrix(0.78583096,-0.61844135,0.61844135,0.78583096,0,0)" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3777"
+       width="153.83578"
+       height="157.2124"
+       x="1226.2595"
+       y="4705.418"
+       rx="45.714287"
+       ry="22.857143"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:4.35088158;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3779"
+       width="73.833122"
+       height="145.02934"
+       x="-4631.6621"
+       y="1060.5741"
+       rx="45.714287"
+       ry="22.857143"
+       transform="matrix(-0.04890034,-0.99880366,0.99880366,-0.04890034,0,0)"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004" />
+    <rect
+       transform="matrix(0.95211391,-0.30574351,0.30574351,0.95211391,0,0)"
+       ry="22.857143"
+       rx="45.714287"
+       y="4596.8096"
+       x="-194.0123"
+       height="166.66667"
+       width="84.848488"
+       id="rect3781"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004" />
+    <path
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+       d="m 1090.4537,4454.396 160.7195,-74.8974 c 24.5619,-11.447 48.9433,-10.7761 54.6669,1.5048 l 112.9711,294.4836 c 4.8082,10.3172 -7.9326,26.3646 -28.5667,35.9812 l -135.0177,62.9204 c -20.6342,9.6161 -41.1167,9.0523 -45.9247,-1.2648 l -152.8528,-275.8969 c -5.7235,-12.2809 9.4426,-31.3835 34.0047,-42.8303 z"
+       id="path3783"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#cccccc;fill-opacity:1;stroke:#1a1a1a;stroke-width:80;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3785"
+       sodipodi:cx="-1330.303"
+       sodipodi:cy="672.05914"
+       sodipodi:rx="130.30302"
+       sodipodi:ry="122.72727"
+       d="m -1200,672.05914 a 130.30302,122.72727 0 1 1 -260.606,0 130.30302,122.72727 0 1 1 260.606,0 z"
+       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,2126.437,4417.9892)"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004" />
+    <path
+       inkscape:export-ydpi="14.470004"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
+       sodipodi:nodetypes="ccccc"
+       id="path3787"
+       d="m 1055.4888,4320.6368 34.0896,-26.3622 3.1836,5.4553 -36.2544,28.5321 -1.0188,-7.6252 z"
+       style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="14.470004"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
+       sodipodi:nodetypes="ccccc"
+       id="path3789"
+       d="m 1121.1816,4271.3533 27.8614,-25.5273 5.0547,5.6705 -29.7514,23.4143 -3.1647,-3.5575 z"
+       style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1" />
+    <rect
+       style="fill:url(#pattern3797);fill-opacity:1;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3791"
+       width="131.06061"
+       height="31.818182"
+       x="-1862.8665"
+       y="4097.457"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004"
+       transform="matrix(0.78583096,-0.61844135,0.61844135,0.78583096,0,0)" />
+    <rect
+       transform="matrix(0.95211391,-0.30574351,0.30574351,0.95211391,0,0)"
+       ry="22.857143"
+       rx="45.714287"
+       y="4620.2583"
+       x="-316.03427"
+       height="166.66667"
+       width="84.848488"
+       id="rect3793"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:4.35862064;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3795"
+       width="73.96447"
+       height="145.28734"
+       x="-4289.9302"
+       y="2102.2866"
+       rx="45.714283"
+       ry="22.857141"
+       transform="matrix(0.21127532,-0.97742659,0.97742659,0.21127532,0,0)"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_headbutt.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004" />
+    <path
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 187.54837,5789.9148 c -6.30518,-0.5759 -11.93834,5.3026 -12.65867,13.184 l -6.51563,71.2965 c 0.37446,0.2477 0.77362,0.4534 1.20215,0.5805 1.45258,0.4312 3.05989,-0.019 4.51246,0.4121 0.24421,0.07 5.4722,3.4693 5.76147,3.5705 0.95358,0.3333 2.05033,-0.012 3.01864,0.2765 1.53107,0.4545 2.87311,1.4857 4.40419,1.9401 0.96836,0.2874 2.06507,-0.058 3.01868,0.2756 1.06616,0.3725 1.81602,1.3971 2.88218,1.7694 0.95357,0.3332 2.06507,-0.058 3.01867,0.2757 2.13228,0.745 3.62926,2.8255 5.76147,3.5703 1.90718,0.6664 4.09907,-0.1174 6.00627,0.5489 1.06609,0.3724 1.81315,1.4283 2.87931,1.8007 0.95356,0.3331 2.01272,0.1844 3.01866,0.2755 0.95994,0.595 1.84781,1.3165 2.88219,1.7697 0.46258,0.2027 1.0219,0.093 1.52487,0.1393 1.00594,0.091 2.06507,-0.058 3.01861,0.2767 1.0661,0.3725 1.84487,1.3476 2.87936,1.801 0.46257,0.2024 0.99081,0.09 1.49367,0.1364 1.006,0.091 2.06511,-0.058 3.01865,0.2764 1.06613,0.3724 1.84773,1.3164 2.88213,1.7698 0.46268,0.2026 1.02199,0.093 1.52497,0.1393 l 3.01854,0.2765 c 0.50261,0.05 1.06451,-0.1297 1.49378,0.1364 0.60718,0.376 0.77841,1.288 1.38551,1.6643 0.42937,0.266 0.99088,0.091 1.49378,0.1363 l 4.54358,0.4152 c 0.5026,0.05 1.17067,-0.2515 1.49375,0.1363 0.32313,0.3884 -0.45957,1.1056 -0.13647,1.4938 0.32312,0.3882 1.02181,0.094 1.52482,0.1393 l 1.49379,0.1364 1.52489,0.1392 c 0.5026,0.05 1.17065,-0.2514 1.49375,0.1364 0.32319,0.3883 -0.46247,1.137 -0.13937,1.5249 0.32318,0.3883 1.02191,0.093 1.5249,0.1393 l 1.49377,0.1364 c 0.50261,0.05 1.06444,-0.1298 1.49382,0.1364 0.60707,0.3761 0.78125,1.2569 1.38831,1.6331 0.42931,0.266 1.17064,-0.2515 1.49385,0.1363 0.32307,0.388 0.24872,1.2018 -0.13941,1.5248 -0.38814,0.3232 -1.1056,-0.4598 -1.49374,-0.1354 -0.38829,0.3233 0.25151,1.1708 -0.13662,1.4937 -0.38337,0.3192 -2.3605,-0.533 -3.01868,-0.2756 -0.6654,0.2597 -0.96784,1.1283 -1.63322,1.3881 -0.47029,0.1842 -1.05449,-0.3231 -1.52482,-0.1392 -0.66534,0.2599 -0.96512,1.0973 -1.63041,1.3571 -0.94102,0.367 -2.07781,-0.6434 -3.01863,-0.2755 -0.66534,0.2597 -0.99899,1.1254 -1.66426,1.3855 -0.65838,0.2565 -2.63526,-0.5949 -3.01866,-0.2757 -0.38819,0.3228 0.25162,1.1707 -0.13657,1.4937 -0.38809,0.3231 -0.99086,-0.09 -1.49372,-0.1363 l -1.52487,-0.1393 c -0.50261,-0.05 -1.02339,-0.3206 -1.49381,-0.1364 -0.66531,0.2599 -0.99898,1.1253 -1.66419,1.3857 -0.47028,0.1839 -0.99091,-0.09 -1.49385,-0.1364 l -1.52478,-0.1404 c -0.50261,-0.05 -1.00213,-0.2519 -1.49377,-0.1363 -1.0994,0.2589 -2.05571,0.96 -3.15524,1.2178 -0.49174,0.1152 -1.02192,-0.093 -1.52487,-0.1392 l -4.51243,-0.412 c -0.50264,-0.05 -1.05446,-0.3233 -1.5249,-0.1394 -0.66532,0.2598 -0.96788,1.1284 -1.63315,1.3881 -0.47031,0.1842 -1.02197,-0.092 -1.52487,-0.1392 l -7.53112,-0.6882 c -0.50259,-0.05 -1.05444,-0.323 -1.52485,-0.1393 -0.66538,0.2599 -0.96508,1.0975 -1.63025,1.3575 -0.47038,0.1841 -1.02198,-0.093 -1.52491,-0.1403 l -1.49372,-0.1362 c -0.50259,-0.05 -1.02337,-0.3205 -1.49383,-0.1364 -0.66536,0.2596 -0.99899,1.1253 -1.66426,1.3854 -0.47026,0.1841 -0.99078,-0.09 -1.49368,-0.1363 l -3.01873,-0.2756 c -0.50261,-0.05 -1.13671,-0.4626 -1.52489,-0.1393 -0.38813,0.3231 0.25161,1.1707 -0.13648,1.4938 -0.38343,0.3192 -2.36054,-0.5331 -3.0187,-0.2765 -0.66535,0.2598 -0.96502,1.0973 -1.63028,1.3573 -0.47026,0.184 -1.02198,-0.092 -1.52487,-0.1393 l -1.49373,-0.1363 c -0.50261,-0.05 -1.05448,-0.3234 -1.52494,-0.1393 -0.66534,0.2598 -0.96779,1.1286 -1.63324,1.3882 -0.47033,0.1841 -1.13674,-0.4625 -1.52481,-0.1392 -0.38814,0.3231 -0.4597,1.1054 -0.1366,1.4937 0.31921,0.3834 2.41799,-0.097 3.0187,0.2755 0.60711,0.3765 0.77841,1.2882 1.38557,1.6643 0.42923,0.2661 0.99086,0.09 1.49372,0.1365 l 1.52492,0.1392 c 0.50261,0.05 1.17062,-0.2514 1.49373,0.1364 0.32318,0.3882 -0.45958,1.1059 -0.13649,1.4937 0.32319,0.3883 1.02186,0.093 1.52485,0.1393 l 3.01873,0.2756 c 0.50261,0.05 1.06443,-0.1296 1.49373,0.1363 0.60715,0.3764 0.77849,1.2881 1.38553,1.664 0.42934,0.2665 0.99086,0.091 1.49378,0.1365 l 3.01871,0.2755 c 0.50263,0.05 1.06444,-0.1297 1.49377,0.1364 3.55859,2.2051 -0.65636,1.446 2.88221,1.7696 l 1.52478,0.1402 c 0.50259,0.05 1.17065,-0.2514 1.49386,0.1365 0.3231,0.388 -0.4626,1.1365 -0.13942,1.5247 0.32309,0.3881 1.5709,-0.363 1.52486,0.1394 -0.17037,1.8644 -2.25341,1.3001 -3.15511,1.2178 -0.50261,-0.05 -1.13681,-0.4627 -1.5249,-0.1403 -0.38815,0.3232 0.24876,1.2019 -0.13936,1.5249 -0.55704,0.4642 -2.46162,-0.7396 -3.01868,-0.2756 -0.3881,0.3233 0.25164,1.1706 -0.1365,1.4937 -0.77631,0.6461 -2.21131,-0.9195 -2.98755,-0.2737 -0.38809,0.3233 0.24884,1.2019 -0.1393,1.5252 -0.3882,0.3231 -1.02199,-0.093 -1.52497,-0.1394 l -1.49373,-0.1354 c -0.50261,-0.05 -1.05449,-0.323 -1.52494,-0.1393 -0.66541,0.2598 -0.96501,1.0975 -1.63033,1.3571 -0.47034,0.1841 -1.02192,-0.092 -1.52482,-0.1393 l -3.01868,-0.2756 c -0.50261,-0.05 -1.00213,-0.2519 -1.49377,-0.1364 -6.05513,1.4217 -0.28239,1.5115 -6.17667,0.9732 -4.3736,-0.4004 2.23527,0.067 -7.69874,0.8025 -1.00729,0.075 -2.0127,-0.1843 -3.01876,-0.2755 l -3.01864,-0.2754 c -1.00599,-0.091 -2.02046,-0.4307 -3.01871,-0.2755 -1.01868,0.1581 -1.87445,0.9522 -2.86944,1.1813 l -2.71033,29.6575 c -0.72025,7.8817 3.75403,14.6839 10.05922,15.2603 l 181.80484,16.6145 c 6.30522,0.5759 11.96948,-5.2994 12.68977,-13.181 l 15.05351,-164.7194 c 0.72018,-7.8819 -3.78525,-14.6873 -10.09034,-15.2631 l -181.80462,-16.617 z"
+       id="rect4593-5" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:4.35088158;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4597-7"
+       width="73.833122"
+       height="145.02934"
+       x="2716.6104"
+       y="5275.7773"
+       rx="45.714287"
+       ry="22.857143"
+       transform="matrix(0.79669063,0.60438733,-0.60438733,0.79669063,0,0)"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_rightpunch.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004" />
+    <path
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+       d="m -591.87405,5773.2499 -314.625,22 c -11.3825,0 -20.5625,18.3287 -20.5625,41.0938 l 0,131.8437 c 30.88262,-6.8212 61.75764,-13.752 92.21875,-21.875 65.23571,-17.3962 131.3053,-44.0687 198.46875,-51.5313 6.92959,-0.7699 36.18937,-3.0288 68.96875,-5.0937 l 0,-67.5313 c 0,-27.0985 -10.91955,-48.9062 -24.46875,-48.9062 z"
+       id="path4601-1" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#cccccc;fill-opacity:1;stroke:#1a1a1a;stroke-width:80;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path4603-5"
+       sodipodi:cx="-1330.303"
+       sodipodi:cy="672.05914"
+       sodipodi:rx="130.30302"
+       sodipodi:ry="122.72727"
+       d="m -1200,672.05914 a 130.30302,122.72727 0 1 1 -260.606,0 130.30302,122.72727 0 1 1 260.606,0 z"
+       transform="matrix(0.63492246,-0.03599548,0.03231484,0.5975352,-75.44433,5451.1251)"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_rightpunch.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004" />
+    <rect
+       style="fill:#d40000;fill-opacity:1;stroke:#4e0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4605-2"
+       width="46.13525"
+       height="27.518723"
+       x="5812.395"
+       y="-846.7558"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_rightpunch.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004"
+       transform="matrix(-0.09100893,0.99585008,-0.99585008,-0.09100893,0,0)" />
+    <rect
+       style="fill:url(#pattern3387);fill-opacity:1;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4609-6"
+       width="131.06061"
+       height="31.818182"
+       x="5796.0684"
+       y="-776.45068"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_rightpunch.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004"
+       transform="matrix(-0.09100893,0.99585008,-0.99585008,-0.09100893,0,0)" />
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:4.35862064;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4613-4"
+       width="73.96447"
+       height="145.28734"
+       x="5865.7822"
+       y="762.48468"
+       rx="45.714283"
+       ry="22.857141"
+       transform="matrix(0.13597897,0.99071172,-0.99071172,0.13597897,0,0)"
+       inkscape:export-filename="C:\Users\Chad\Projects\LD19\Images\robot_rightpunch.png"
+       inkscape:export-xdpi="14.470004"
+       inkscape:export-ydpi="14.470004" />
+    <path
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#4d4d4d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+       d="m -53.777459,5822.25 c -7.85122,6.7773 -14.95652,12.4878 -18.9375,16.4688 -9.49797,9.4979 -6.31151,31.187 -22.75,39.4062 -7.328411,3.6642 -53.796951,21.9844 -54.531251,22.7188 -0.7066,0.7065 5.60762,43.4305 -16.65625,54.5624 -30.32627,15.1632 -68.02486,7.5626 -103.03125,7.5626 -21.93295,0 -45.03868,-3.5818 -62.125,-12.125 -10.18642,-5.0933 -46.76469,-7.4354 -81.59375,-7.6563 0.47745,21.9056 9.45668,39.2813 20.53125,39.2813 l 314.625001,22 c 13.5492,0 24.46875,-21.839 24.46875,-48.9376 l 0,-133.2812 z"
+       id="path3344" />
   </g>
 </svg>

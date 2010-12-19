@@ -72,7 +72,7 @@ private:
 	Gosu::Font *m_Font;
 	SceneGraph m_Graph;
 
-	Sprite m_hud, m_hud2;
+	Sprite m_hud, m_hud2, m_Credits, m_bystander_down, m_robotdown;
 	
 	Gosu::Color m_canvasColor;
 
@@ -83,8 +83,12 @@ private:
 	int m_AnimLock;
 	int m_Action;
 	SpriteSheet m_Idle, m_Run, m_LPunch, m_RPunch, m_HButt, m_Bystand;
+	Sprite *m_Aura;
 
 	bool m_Left;
+	Gosu::Color m_fade;
+	double m_explosTimer, m_creditTimer;
+	bool m_gameOver, m_showCredits;
 
 	//Player data bs
 	b2Vec2 m_PlayerPos;
@@ -97,6 +101,8 @@ private:
 
 	int m_Score;
 	int m_Continuous;
+	int m_gameTimer;
+	int m_GameTime;
 
 	//	Pixel transformation data
 	// Focus is the level coordinates of the center of the screen

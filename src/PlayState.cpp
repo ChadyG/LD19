@@ -49,16 +49,40 @@ void PlayState::init()
 
 	m_Font = &m_rendMan.font();
 	m_hud.setImage(new Gosu::Image(Core::getCurrentContext()->graphics(), 
-		Gosu::sharedResourcePrefix() + L"Images/HUD1.png"));
+		Gosu::resourcePrefix() + L"Images/hud1.png"));
 	m_hud.setLayer(10.0);
 	m_hud2.setImage(new Gosu::Image(Core::getCurrentContext()->graphics(), 
-		Gosu::sharedResourcePrefix() + L"Images/HUD2.png"));
+		Gosu::resourcePrefix() + L"Images/hud2.png"));
 	m_hud2.setLayer(10.0);
 
+	m_bystander_down.setImage(new Gosu::Image(Core::getCurrentContext()->graphics(), 
+		Gosu::resourcePrefix() + L"Images/bystander_down.png"));
+	m_bystander_down.setLayer(12.0);
+
+	m_robotdown.setImage(new Gosu::Image(Core::getCurrentContext()->graphics(), 
+		Gosu::resourcePrefix() + L"Images/robot_down.png"));
+	m_robotdown.setLayer(13.0);
+
+	
+	m_Credits.setImage(new Gosu::Image(Core::getCurrentContext()->graphics(), 
+		Gosu::resourcePrefix() + L"Images/credits.png"));
+	m_Credits.setCenter(0.0, 0.0);
+	m_Credits.setLayer(12.0);
+
 	m_AnimLock = 0;
+	m_gameOver = false;
+	m_showCredits = false;
+	
+	m_fade.setAlpha(0);
+	m_fade.setBlue(255);
+	m_fade.setRed(255);
+	m_fade.setGreen(255);
 
 	m_Score = 0;
 	m_Continuous = 0;
+	m_gameTimer = Gosu::milliseconds();
+	m_explosTimer = 0.0;
+	m_creditTimer = 0.0;
 
 	m_Shape.SetAsBox(3.2f, 6.4f);
 
@@ -119,11 +143,12 @@ void PlayState::init()
 	m_Graph.loadFile( m_ConfigFile );
 
 	m_Left = false;
-	m_Idle.setImage(Gosu::sharedResourcePrefix() + L"Images/robot_idle.png", 90, 128, 15);
-	m_Run.setImage(Gosu::sharedResourcePrefix() + L"Images/robot_roll.png", 90, 128, 15);
-	m_LPunch.setImage(Gosu::sharedResourcePrefix() + L"Images/robot_leftpunch.png", 102, 128, 4);
-	m_RPunch.setImage(Gosu::sharedResourcePrefix() + L"Images/robot_rightpunch.png", 102, 128, 4);
-	m_HButt.setImage(Gosu::sharedResourcePrefix() + L"Images/robot_headbutt.png", 102, 128, 4);
+	m_Aura = m_rendMan.createSprite(0.0, Gosu::resourcePrefix() + L"Images/robot_aura.png");
+	m_Idle.setImage(Gosu::resourcePrefix() + L"Images/robot_idle.png", 90, 128, 15);
+	m_Run.setImage(Gosu::resourcePrefix() + L"Images/robot_roll.png", 90, 128, 15);
+	m_LPunch.setImage(Gosu::resourcePrefix() + L"Images/robot_leftpunch.png", 102, 128, 1);
+	m_RPunch.setImage(Gosu::resourcePrefix() + L"Images/robot_rightpunch.png", 102, 128, 2);
+	m_HButt.setImage(Gosu::resourcePrefix() + L"Images/robot_headbutt.png", 102, 128, 4);
 
 	m_Idle.setVisible(false);
 	m_Idle.setX(m_PlayerPos.x);
@@ -132,6 +157,11 @@ void PlayState::init()
 	m_Run.setVisible(true);
 	m_Run.setX(m_PlayerPos.x);
 	m_Run.setY(m_PlayerPos.y);
+
+	m_Aura->setVisible(true);
+	m_Aura->setCenter(0.5, 0.5675);
+	m_Aura->setX(m_PlayerPos.x);
+	m_Aura->setY(m_PlayerPos.y);
 
 	m_LPunch.setVisible(false);
 	m_LPunch.setX(m_PlayerPos.x);
@@ -160,11 +190,11 @@ void PlayState::init()
 		m_AIs[i].speed = Gosu::random(0.05, 0.15);
 		m_AIs[i].pos.Set(20.0 + i*15.0 + Gosu::random(0.0, 50.0), 0.0);
 		if (Gosu::random(0.0,2.0) > 1.0) {
-			m_AIs[i].walk.setImage(Gosu::sharedResourcePrefix() + L"Images/bystander.png", 64, 128, 20);
-			m_AIs[i].run.setImage(Gosu::sharedResourcePrefix() + L"Images/bystander_run.png", 64, 135, 20);
+			m_AIs[i].walk.setImage(Gosu::resourcePrefix() + L"Images/bystander.png", 64, 128, 20);
+			m_AIs[i].run.setImage(Gosu::resourcePrefix() + L"Images/bystander_run.png", 64, 135, 20);
 		}else{
-			m_AIs[i].walk.setImage(Gosu::sharedResourcePrefix() + L"Images/bystander2.png", 64, 128, 20);
-			m_AIs[i].run.setImage(Gosu::sharedResourcePrefix() + L"Images/bystander_run2.png", 64, 135, 20);
+			m_AIs[i].walk.setImage(Gosu::resourcePrefix() + L"Images/bystander2.png", 64, 128, 20);
+			m_AIs[i].run.setImage(Gosu::resourcePrefix() + L"Images/bystander_run2.png", 64, 135, 20);
 		}
 		m_AIs[i].run.setVisible(false);
 		m_AIs[i].walk.setCenter(0.5, 1.0);
@@ -197,6 +227,7 @@ void PlayState::init()
 	m_audMan.createSample(Gosu::resourcePrefix() + L"Sound/hurt2.wav", "hurt2");
 	m_audMan.createSample(Gosu::resourcePrefix() + L"Sound/hurt3.wav", "hurt3");
 	m_audMan.createSample(Gosu::resourcePrefix() + L"Sound/hurt4.wav", "hurt4");
+	m_audMan.createSample(Gosu::resourcePrefix() + L"Sound/explosion.wav", "explosion");
 	m_audMan.playSong("Background", true);
 }
 
@@ -217,150 +248,187 @@ void PlayState::resume()
 
 void PlayState::update()
 {
-	//bool moving = false;
-	m_PlayerPos.x += 0.25 + m_Continuous*(0.05);
-	m_Run.setSpeed((int)((0.25 + m_Continuous*(0.05))*10));
+	if (!m_gameOver) {
+		//bool moving = false;
+		m_PlayerPos.x += 0.25 + m_Continuous*(0.05);
+		m_Run.setSpeed((int)((0.25 + m_Continuous*(0.05))*10));
 
-	//This is a really funny way to do this
-	bool hit = false;
-	if (m_AnimLock == 16) {
-		if (m_Action == 1) {
-			m_audMan.playStereoSample("hit1", m_PlayerPos.x, m_PlayerPos.y);
-		}
-		if (m_Action == 2) {
-			m_audMan.playStereoSample("hit2", m_PlayerPos.x, m_PlayerPos.y);
-		}
-		if (m_Action == 3) {
-			m_audMan.playStereoSample("hit3", m_PlayerPos.x, m_PlayerPos.y);
-		}
+		//This is a really funny way to do this
+		bool hit = false;
+		if (m_AnimLock == 6) {
+			if (m_Action == 1) {
+				m_audMan.playStereoSample("hit1", m_PlayerPos.x, m_PlayerPos.y);
+			}
+			if (m_Action == 2) {
+				m_audMan.playStereoSample("hit2", m_PlayerPos.x, m_PlayerPos.y);
+			}
+			if (m_Action == 3) {
+				m_audMan.playStereoSample("hit3", m_PlayerPos.x, m_PlayerPos.y);
+			}
 		
-		for (int i=0; i<MAX_AI; ++i) {
-			if (testPoint(i)) {
-				if (m_Action == 1) {
-					m_Score += 1 + m_Continuous;
-				}
-				if (m_Action == 2) {
-					m_Score += 1 + 2*m_Continuous;
-				}
-				if (m_Action == 3) {
-					m_Score += 1 + 3*m_Continuous;
-				}
-				m_AIs[i].speed += 0.05;
-				m_AIs[i].walking = false;
-				m_AIs[i].run.setVisible(true);
-				m_AIs[i].walk.setVisible(false);
+			for (int i=0; i<MAX_AI; ++i) {
+				if (testPoint(i)) {
+					if (m_Action == 1) {
+						m_Score += 1 + m_Continuous;
+					}
+					if (m_Action == 2) {
+						m_Score += 1 + 2*m_Continuous;
+					}
+					if (m_Action == 3) {
+						m_Score += 1 + 3*m_Continuous;
+					}
+					m_AIs[i].speed += 0.05;
+					m_AIs[i].walking = false;
+					m_AIs[i].run.setVisible(true);
+					m_AIs[i].walk.setVisible(false);
 
-				m_AIs[i].walk.setSpeed((int)(m_AIs[i].speed*20));
-				m_AIs[i].run.setSpeed((int)(m_AIs[i].speed*20));
-				hit = true;
-				m_Continuous += 1;
+					m_AIs[i].walk.setSpeed((int)(m_AIs[i].speed*20));
+					m_AIs[i].run.setSpeed((int)(m_AIs[i].speed*20));
+					hit = true;
+					m_Continuous += 1;
 
-				switch ((int)Gosu::random(1.0, 7.0)) {
-				case 1:
-					m_audMan.playStereoSample("hurt1", m_AIs[i].pos.x, m_AIs[i].pos.y);
-					break;
-				case 2:
-					m_audMan.playStereoSample("hurt2", m_AIs[i].pos.x, m_AIs[i].pos.y);
-					break;
-				case 3:
-					m_audMan.playStereoSample("hurt3", m_AIs[i].pos.x, m_AIs[i].pos.y);
-					break;
-				case 4:
-					m_audMan.playStereoSample("hurt4", m_AIs[i].pos.x, m_AIs[i].pos.y);
-					break;
-				}
+					switch ((int)Gosu::random(1.0, 7.0)) {
+					case 1:
+						m_audMan.playStereoSample("hurt1", m_AIs[i].pos.x, m_AIs[i].pos.y);
+						break;
+					case 2:
+						m_audMan.playStereoSample("hurt2", m_AIs[i].pos.x, m_AIs[i].pos.y);
+						break;
+					case 3:
+						m_audMan.playStereoSample("hurt3", m_AIs[i].pos.x, m_AIs[i].pos.y);
+						break;
+					case 4:
+						m_audMan.playStereoSample("hurt4", m_AIs[i].pos.x, m_AIs[i].pos.y);
+						break;
+					}
 				
+				}
+			}
+			if (!hit) {
+				m_Continuous = 0;
 			}
 		}
-		if (!hit) {
-			m_Continuous = 0;
+		if (m_AnimLock == 0) {
+			m_LPunch.setVisible(false);
+			m_RPunch.setVisible(false);
+			m_HButt.setVisible(false);
+			m_Run.setVisible(true);
+
+			m_Run.setFrame(0);
+
+			m_AnimLock -= 1;
+		}else{
+			m_AnimLock -= 1;
 		}
-	}
-	if (m_AnimLock == 0) {
-		m_LPunch.setVisible(false);
-		m_RPunch.setVisible(false);
-		m_HButt.setVisible(false);
-		m_Run.setVisible(true);
+		InputManager *iman = InputManager::getCurrentContext();
+		if (iman->query("Play.PunchLeft") == InputManager::actnBegin) {
+			m_Action = 1;
 
-		m_Run.setFrame(0);
+			m_LPunch.setVisible(true);
+			m_RPunch.setVisible(false);
+			m_HButt.setVisible(false);
+			m_Run.setVisible(false);
 
-		m_AnimLock -= 1;
+			m_LPunch.setFrame(0);
+
+			m_AnimLock = 8;
+		}
+		if (iman->query("Play.PunchRight") == InputManager::actnBegin) {
+			m_Action = 2;
+
+			m_LPunch.setVisible(false);
+			m_RPunch.setVisible(true);
+			m_HButt.setVisible(false);
+			m_Run.setVisible(false);
+		
+			m_RPunch.setFrame(0);
+
+			m_AnimLock = 16;
+		}
+		if (iman->query("Play.HeadButt") == InputManager::actnBegin) {
+			m_Action = 3;
+
+			m_LPunch.setVisible(false);
+			m_RPunch.setVisible(false);
+			m_HButt.setVisible(true);
+			m_Run.setVisible(false);
+		
+			m_HButt.setFrame(0);
+
+			m_AnimLock = 32;
+		}
+	
+		//Update camera focus
+		m_Focus[0] = m_PlayerPos.x;
+		m_Focus[1] = m_PlayerPos.y - 24.0;
+
+		m_Idle.setX(m_PlayerPos.x);
+		m_Idle.setY(m_PlayerPos.y);
+	
+		m_Run.setX(m_PlayerPos.x);
+		m_Run.setY(m_PlayerPos.y);
+		int c = Gosu::interpolate<int>(255, 50, m_PlayerPos.x/2000.0);
+		Gosu::Color color(255, c, c);
+		m_Run.setColorMod(color);
+		m_LPunch.setColorMod(color);
+		m_RPunch.setColorMod(color);
+		m_HButt.setColorMod(color);
+
+		double f = m_PlayerPos.x/2000.0;
+		f = f*f;
+		int a = Gosu::interpolate<int>(0, 250, f);
+		Gosu::Color color2(a, 255, c, c);
+		m_Aura->setColorMod(color2);
+	
+		m_Aura->setX(m_PlayerPos.x);
+		m_Aura->setY(m_PlayerPos.y);
+	
+		m_LPunch.setX(m_PlayerPos.x);
+		m_LPunch.setY(m_PlayerPos.y);
+
+		m_RPunch.setX(m_PlayerPos.x);
+		m_RPunch.setY(m_PlayerPos.y);
+	
+		m_HButt.setX(m_PlayerPos.x);
+		m_HButt.setY(m_PlayerPos.y);
+
+		for (int i=0; i<MAX_AI; ++i) {
+			if (m_AIs[i].walking) 
+				m_AIs[i].pos.x += m_AIs[i].speed;
+			else
+				m_AIs[i].pos.x += m_AIs[i].speed * 2.5;
+
+			m_AIs[i].walk.setX(m_AIs[i].pos.x);
+			m_AIs[i].walk.setY(m_AIs[i].pos.y);
+
+			m_AIs[i].run.setX(m_AIs[i].pos.x);
+			m_AIs[i].run.setY(m_AIs[i].pos.y);
+		}
+
+		m_rendMan.setCamera( m_Focus[0], m_Focus[1], m_Zoom, m_Rot);
+		m_rendMan.update();
+		m_Graph.update();
 	}else{
-		m_AnimLock -= 1;
-	}
-	InputManager *iman = InputManager::getCurrentContext();
-	if (iman->query("Play.PunchLeft") == InputManager::actnBegin) {
-		m_Action = 1;
-
-		m_LPunch.setVisible(true);
-		m_RPunch.setVisible(false);
-		m_HButt.setVisible(false);
-		m_Run.setVisible(false);
-
-		m_LPunch.setFrame(0);
-
-		m_AnimLock = 32;
-	}
-	if (iman->query("Play.PunchRight") == InputManager::actnBegin) {
-		m_Action = 2;
-
-		m_LPunch.setVisible(false);
-		m_RPunch.setVisible(true);
-		m_HButt.setVisible(false);
-		m_Run.setVisible(false);
-		
-		m_RPunch.setFrame(0);
-
-		m_AnimLock = 32;
-	}
-	if (iman->query("Play.HeadButt") == InputManager::actnBegin) {
-		m_Action = 3;
-
-		m_LPunch.setVisible(false);
-		m_RPunch.setVisible(false);
-		m_HButt.setVisible(true);
-		m_Run.setVisible(false);
-		
-		m_HButt.setFrame(0);
-
-		m_AnimLock = 32;
-	}
-	
-	//Update camera focus
-	m_Focus[0] = m_PlayerPos.x;
-	m_Focus[1] = m_PlayerPos.y - 24.0;
-
-	m_Idle.setX(m_PlayerPos.x);
-	m_Idle.setY(m_PlayerPos.y);
-	
-	m_Run.setX(m_PlayerPos.x);
-	m_Run.setY(m_PlayerPos.y);
-	
-	m_LPunch.setX(m_PlayerPos.x);
-	m_LPunch.setY(m_PlayerPos.y);
-
-	m_RPunch.setX(m_PlayerPos.x);
-	m_RPunch.setY(m_PlayerPos.y);
-	
-	m_HButt.setX(m_PlayerPos.x);
-	m_HButt.setY(m_PlayerPos.y);
-
-	for (int i=0; i<MAX_AI; ++i) {
-		if (m_AIs[i].walking) 
-			m_AIs[i].pos.x += m_AIs[i].speed;
-		else
-			m_AIs[i].pos.x += m_AIs[i].speed * 2.5;
-
-		m_AIs[i].walk.setX(m_AIs[i].pos.x);
-		m_AIs[i].walk.setY(m_AIs[i].pos.y);
-
-		m_AIs[i].run.setX(m_AIs[i].pos.x);
-		m_AIs[i].run.setY(m_AIs[i].pos.y);
+		if (m_creditTimer < 1.0) m_creditTimer += 0.01;
+		if (m_creditTimer >= 1.0) {
+			m_creditTimer = 1.0;
+			if (!m_showCredits) m_GameTime = (Gosu::milliseconds() - m_gameTimer)/1000;
+			m_showCredits = true;
+		}
+		m_fade.setRed(255*(1.0-m_creditTimer));
+		m_fade.setGreen(255*(1.0-m_creditTimer));
+		m_fade.setBlue(255*(1.0-m_creditTimer));
 	}
 
-	m_rendMan.setCamera( m_Focus[0], m_Focus[1], m_Zoom, m_Rot);
-	m_rendMan.update();
-	m_Graph.update();
+	if (m_PlayerPos.x > 1800) {
+		if (m_explosTimer < 1.0) m_explosTimer += 0.2;
+		if (m_explosTimer >= 1.0) m_explosTimer = 1.0;
+		m_fade.setAlpha(255*m_explosTimer);
+
+		if (!m_gameOver) 
+			m_audMan.playStereoSample("explosion", m_PlayerPos.x, m_PlayerPos.y);
+		m_gameOver = true;
+	}
 }
 
 void PlayState::draw() const
@@ -375,11 +443,25 @@ void PlayState::draw() const
 	//m_rendMan->setColor(m_colorMod);
 	m_rendMan.doRender();
 
+	m_Engine->graphics().drawQuad( 0, 0, m_fade, 
+		m_Width, 0, m_fade,
+		0, m_Height, m_fade,
+		m_Width, m_Height, m_fade, 11);
+
 	m_hud.draw(60.0, 20.0);
 	m_Font->drawRel(boost::lexical_cast<std::wstring>(m_Score), 150, 10, 10.0, 1.0, 0.0, 2.0, 2.0);
 	if (m_Continuous > 0) {
 		m_hud2.draw(250.0, 20.0);
 		m_Font->drawRel(boost::lexical_cast<std::wstring>(m_Continuous), 310, 10, 10.0, 1.0, 0.0, 2.0, 2.0);
+	}
+	m_Font->draw(boost::lexical_cast<std::wstring>(Core::getCurrentContext()->getFPS()), 850, 10, 10.0, 1.0, 1.0);
+
+	if (m_showCredits) {
+		m_Credits.draw(0.0, 0.0);
+		m_bystander_down.draw(450, 400);
+		m_robotdown.draw(450, 400);
+		m_Font->drawRel(boost::lexical_cast<std::wstring>(m_Score), 450, 280, 12.0, 0.5, 0.0, 2.0, 2.0);
+		m_Font->drawRel(boost::lexical_cast<std::wstring>(m_GameTime) + L" seconds", 450, 350, 12.0, 0.5, 0.0, 2.0, 2.0);
 	}
 }
 
